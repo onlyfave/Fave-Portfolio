@@ -1,0 +1,157 @@
+/* General Styles */
+
+@font-face {
+  font-family: "gilroy-bold";
+  src: url(./Assets/fonts/gilroy-bold/Gilroy-Bold.ttf);
+  src: url(./Assets/fonts/gilroy-bold/Gilroy-Medium.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 2rem;
+  font-family: "gilroy-bold";
+  background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+  width: 100%;
+  color: #333;
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+  color: #333;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+/* Navigation Styles */
+.nav-links {
+  display: block;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+a:hover {
+  border-bottom: 3px solid #333;
+  padding: 4px 0;
+  transition: 0.3s;
+  animation: 1s ease-in-out;
+  color: #333;
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+li {
+  margin: 0 5px;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+/* Main Content Styles */
+.main {
+  padding: 9rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "gilroy-bold";
+  font-weight: 400;
+  font-size: 4rem;
+}
+p {
+  padding: 1.5rem 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 800px) {
+  body {
+    font-family: "gilroy-bold";
+    background-color: #f4f4f4;
+  }
+
+  /* Header Styles */
+  header {
+    width: 100%;
+
+    color: #333;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    font-family: "Pacifico", cursive;
+    font-size: 2rem;
+    color: #333;
+    line-height: 80px;
+    font-weight: bold;
+  }
+
+  /* Navigation Styles */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+  }
+  ul {
+    list-style-type: none;
+    position: relative; /* Position for mobile */
+    min-width: 100%;
+  }
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+  }
+
+  a:hover {
+    border-bottom: 3px solid #333;
+    padding: 4px 0;
+    transition: 0.3s;
+    animation: 1s ease-in-out;
+    color: #333;
+  }
+
+  .nav-toggle {
+    display: flex;
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  /* Main Content Styles */
+  .main {
+    padding: 2rem;
+    margin: 0 auto;
+  }
+}
