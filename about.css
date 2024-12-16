@@ -1,0 +1,36 @@
+/* General Styles */
+
+@font-face {
+    font-family: "gilroy-bold";
+    src: url(./Assets/fonts/gilroy-bold/Gilroy-Bold.ttf);
+    src: url(./Assets/fonts/gilroy-bold/Gilroy-Medium.ttf);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 2rem;
+    font-family: "gilroy-bold";
+    background-color: #f4f4f4;
+  }
+  .container {
+    background-color: #c7b198;
+    padding: 2rem;
+  }
+  h1 {
+    font-family: "gilroy-bold";
+    font-weight: 400;
+    font-size: 4rem; 
+  }
+  p {
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .content {
+    text-align: center;
+  }
