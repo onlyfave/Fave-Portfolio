@@ -33,7 +33,7 @@ export const Experience = () => {
                 BSc in Computer Science
               </p>
               <p className="text-gray-300">
-                Lagos State University of Science and Technology
+                National Open University of Nigeria
               </p>
             </div>
             <div className="rounded-lg bg-white/5 p-6 shadow-lg backdrop-blur-sm transition-all hover:translate-y-[-2px] hover:bg-white/10">
