@@ -1,24 +1,21 @@
+import { comfortaa, raleway } from "@/lib/fonts";
 import Link from "next/link";
 
 export const Header = () => {
   return (
-    <header className="flex items-center justify-between px-12 py-5">
-      <h2 className="text-2xl text-white">Fave ✨</h2>
+    <header className="mx-auto flex max-w-[90rem] items-center justify-between px-12 py-5">
+      <h2
+        className={`text-lg/[2rem] font-bold text-[#25282B] ${comfortaa.className}`}
+      >
+        Onyeneke Favour
+      </h2>
 
       <nav>
-        <ul className="flex items-center gap-6">
+        <ul className="flex items-center gap-12">
           <li>
             <Link
               href="#"
-              className="px-5 text-base font-semibold text-[#f5c8e8]"
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="#"
-              className="px-5 text-base font-semibold text-[#f5c8e8]"
+              className={`text-lg font-medium text-[#25282B] ${raleway.className}`}
             >
               About
             </Link>
@@ -26,9 +23,17 @@ export const Header = () => {
           <li>
             <Link
               href="#"
-              className="px-5 text-base font-semibold text-[#f5c8e8]"
+              className={`text-lg font-medium text-[#25282B] ${raleway.className}`}
             >
-              Contact
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="#"
+              className={`text-lg font-medium text-[#25282B] ${raleway.className}`}
+            >
+              Contacts
             </Link>
           </li>
         </ul>
