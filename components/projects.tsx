@@ -48,7 +48,7 @@ export const Projects = () => {
         <div className="h-[0.25rem] w-[6.25rem] rounded-sm bg-[#fdc435]"></div>
       </div>
 
-      <div className="mx-auto flex max-w-[62rem] flex-col gap-20">
+      <div className="mx-auto flex max-w-[62rem] flex-col gap-16">
         {projectData.map((project:any, index) => (
           <ProjectsItem
             key={index}

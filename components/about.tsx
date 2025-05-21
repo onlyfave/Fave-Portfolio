@@ -53,7 +53,7 @@ export const About = () => {
       <div className="container mx-auto grid grid-cols-1 gap-16 px-6 lg:grid-cols-2 lg:px-12">
         <div className="flex flex-col space-y-12">
           <div className="space-y-6">
-            <h2 className="bg-gradient-to-r text-[#232323] from-gray-400 to-gray-500 bg-clip-text text-7xl font-bold tracking-tighter text-transparent">
+            <h2 className="bg-gradient-to-r text-zinc-800 from-gray-400 to-gray-500 bg-clip-text text-7xl font-bold tracking-tighter text-transparent">
               About Me
             </h2>
             <p className="text-2xl leading-relaxed text-[#232323]">

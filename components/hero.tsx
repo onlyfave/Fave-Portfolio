@@ -25,7 +25,7 @@ export const Hero = () => {
             href="/"
             className={`rounded-lg bg-[#fdc435] px-6 py-2 text-[#25282B] ${roboto.className}`}
           >
-            Projects
+            Resume
           </Link>
           <Link
             href="/"

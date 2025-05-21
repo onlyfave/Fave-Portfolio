@@ -15,7 +15,7 @@ export const Header = () => {
           <li>
             <Link
               href="/"
-              className={`text-lg font-medium text-[#25282B] ${raleway.className}`}
+              className={`text-lg hover:underline font-medium text-[#25282B] ${raleway.className} `}
             >
               About
             </Link>
@@ -23,7 +23,7 @@ export const Header = () => {
           <li>
             <Link
               href="/#Projects"
-              className={`text-lg font-medium text-[#25282B] ${raleway.className}`}
+              className={`text-lg hover:underline font-medium text-[#25282B] ${raleway.className}`}
             >
               Projects
             </Link>
@@ -31,7 +31,7 @@ export const Header = () => {
           <li>
             <Link
               href="/#Contact"
-              className={`text-lg font-medium text-[#25282B] ${raleway.className}`}
+              className={`text-lg hover:underline font-medium text-[#25282B] ${raleway.className}`}
             >
               Contacts
             </Link>
