@@ -2,14 +2,14 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export const Contact = () => {
   return (
-    <div className="container mx-auto px-4 py-16">
+    <div id="Contact" className="container mx-auto px-4 py-16">
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
         {/* Left Column */}
         <div className="flex flex-col justify-center">
-          <h2 className="mb-4 text-4xl font-bold text-slate-100">
+          <h2 className="mb-4 text-4xl font-bold text-slate-800">
             Let's Connect
           </h2>
-          <p className="mb-8 text-slate-300">
+          <p className="mb-8 text-slate-800">
             I'm always open to discussing new projects, creative ideas, or
             opportunities to be part of your visions.
           </p>
@@ -18,7 +18,7 @@ export const Contact = () => {
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-3xl text-slate-200 hover:text-slate-400"
+              className="text-3xl text-slate-800 hover:text-slate-600"
             >
               <FaGithub />
             </a>
@@ -26,7 +26,7 @@ export const Contact = () => {
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-3xl text-slate-200 hover:text-cyan-400"
+              className="text-3xl text-slate-800 hover:text-slate-600"
             >
               <FaLinkedin />
             </a>
@@ -34,7 +34,7 @@ export const Contact = () => {
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-3xl text-slate-200 hover:text-cyan-300"
+              className="text-3xl text-slate-800 hover:text-slate-600"
             >
               <FaTwitter />
             </a>
@@ -102,7 +102,7 @@ export const Contact = () => {
             </div>
             <button
               type="submit"
-              className="w-full rounded-md bg-cyan-700 px-4 py-2 text-white transition duration-300 hover:bg-cyan-600"
+              className="w-full rounded-md bg-[#fdc435] px-4 py-2 text-slate-800 transition duration-300 hover:bg-[#fdc405]"
             >
               Send Message
             </button>

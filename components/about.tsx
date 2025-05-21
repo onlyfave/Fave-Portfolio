@@ -49,14 +49,14 @@ export const About = () => {
   };
 
   return (
-    <section className="min-h-screen bg-[#2B2B2B] py-20">
+    <section className="min-h-screen bg-[#fdc435] py-20">
       <div className="container mx-auto grid grid-cols-1 gap-16 px-6 lg:grid-cols-2 lg:px-12">
         <div className="flex flex-col space-y-12">
           <div className="space-y-6">
-            <h2 className="bg-gradient-to-r from-gray-400 to-gray-500 bg-clip-text text-7xl font-bold tracking-tighter text-transparent">
+            <h2 className="bg-gradient-to-r text-[#232323] from-gray-400 to-gray-500 bg-clip-text text-7xl font-bold tracking-tighter text-transparent">
               About Me
             </h2>
-            <p className="text-2xl leading-relaxed text-gray-300">
+            <p className="text-2xl leading-relaxed text-[#232323]">
               Highly motivated and detail-oriented DevOps Engineer with a solid background in software development
               and IT operations who specializes in creating robust, scalable
               solutions that enhance operational efficiency and drive business
@@ -64,7 +64,7 @@ export const About = () => {
             </p>
           </div>
           <div className="space-y-6">
-            <h2 className="text-4xl font-semibold text-white">Soft Skills</h2>
+            <h2 className="text-4xl font-semibold text-[#232323]">Soft Skills</h2>
             <ul className="grid grid-cols-1 gap-4 pl-4 md:grid-cols-2">
               {[
                 "Collaboration",
@@ -74,8 +74,8 @@ export const About = () => {
                 "Excellent Communication",
               ].map((skill) => (
                 <li key={skill} className="flex items-center space-x-2">
-                  <span className="h-2 w-2 rounded-full bg-gray-400"></span>
-                  <span className="text-xl text-gray-300 transition-all duration-300 hover:translate-x-2 hover:transform hover:text-white">
+                  <span className="h-2 w-2 rounded-full bg-[#232323]"></span>
+                  <span className="text-xl text-[#232323] transition-all duration-300 hover:translate-x-2 hover:transform hover:text-white">
                     {skill}
                   </span>
                 </li>
@@ -84,7 +84,7 @@ export const About = () => {
           </div>
         </div>
         <div className="space-y-8">
-          <h2 className="text-4xl font-semibold text-white">
+          <h2 className="text-4xl font-semibold text-[#232323]">
             Technical Skills
           </h2>
           <div className="space-y-4">
