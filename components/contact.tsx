@@ -15,7 +15,7 @@ export const Contact = () => {
           </p>
           <div className="flex space-x-6">
             <a
-              href="https://github.com"
+              href="https://github.com/onlyfave"
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl text-slate-800 hover:text-slate-600"
@@ -23,7 +23,7 @@ export const Contact = () => {
               <FaGithub />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/favour-onyeneke-2b2881297/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl text-slate-800 hover:text-slate-600"
@@ -31,7 +31,7 @@ export const Contact = () => {
               <FaLinkedin />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://x.com/only_fave"
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl text-slate-800 hover:text-slate-600"

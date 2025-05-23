@@ -1,8 +1,18 @@
-import Project1 from "@/public/productOne.jpg";
-import Project2 from "@/public/project2.png";
-import Project3 from "@/public/productThree.png";
+import Project1 from "@/public/pulumi project cover.png";
+import Project2 from "@/public/craftly logo (1).png";
+import Project3 from "@/public/FastAPI book management project cover.png";
+import Project4 from "@/public/NBA stats pipeline project.png";
 import { ProjectsItem } from "./projects-item";
 const projectData = [
+  {
+    title: "Craftly",
+    description:
+      "Craftly is a web application designed to help artisans market their goods and make sales. It provides a platform where artisans can showcase their products, connect with potential buyers, and manage their business efficiently.",
+    image: Project2,
+    link: "https://github.com/onlyfave/Craftly-build",
+    gitHubLink: "https://project2.com",
+  },
+
   {
     title: "Pulumi Deploy Static",
     description:
@@ -12,14 +22,7 @@ const projectData = [
     link: "https://github.com/onlyfave/Pulumi-deploy-static",
     gitHubLink: "https://dev.to/onlyfave/iac-in-action-deploying-a-static-site-with-pulumi-aws-cloudflare-29cj",
   },
-  {
-    title: "Craftly",
-    description:
-      "Craftly is a web application designed to help artisans market their goods and make sales. It provides a platform where artisans can showcase their products, connect with potential buyers, and manage their business efficiently.",
-    image: Project2,
-    link: "https://github.com/onlyfave/Craftly-build",
-    gitHubLink: "https://project2.com",
-  },
+  
   {
     title: "FastAPI Book Management",
     description:
@@ -32,7 +35,7 @@ const projectData = [
     title: "NBA Statistics Pipeline",
     description:
       "This project is an NBA Statistics Pipeline that fetches NBA team statistics from the SportsData API and stores them in AWS DynamoDB. The project also implements structured logging using AWS CloudWatch.",
-    image: Project3,
+    image: Project4,
     link: "https://github.com/onlyfave/nba-stats-pipeline",
     gitHubLink: "https://project3.com",
   }
