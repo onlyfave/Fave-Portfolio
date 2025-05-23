@@ -17,18 +17,18 @@ export const Hero = () => {
           Hello, my name is Onyeneke Favour
         </h1>
         <p className="py-8 text-2xl text-[#828282]">
-          A passionate DevOps Engineer who is enthusiastic about creating
+          A passionate Cloud Engineer who is enthusiastic about creating
           excellent operation systems in an Agile environment.
         </p>
         <div className="flex items-center gap-3">
           <Link
-            href="/"
+            href="https://docs.google.com/document/d/1Nlfv9kDCG2147eNH1H59ytqEXN6j9uQTO0MPn4Kmqjc/edit?tab=t.0"
             className={`rounded-lg bg-[#fdc435] px-6 py-2 text-[#25282B] ${roboto.className}`}
           >
             Resume
           </Link>
           <Link
-            href="/"
+            href="https://www.linkedin.com/in/favour-onyeneke-2b2881297/"
             className={`rounded-lg border-[2px] border-[#25282B] px-6 py-2 text-[#25282B] ${roboto.className}`}
           >
             LinkedIn

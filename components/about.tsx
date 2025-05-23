@@ -57,7 +57,7 @@ export const About = () => {
               About Me
             </h2>
             <p className="text-2xl leading-relaxed text-[#232323]">
-              Highly motivated and detail-oriented DevOps Engineer with a solid background in software development
+              Highly motivated and detail-oriented Cloud Engineer with a solid background in software development
               and IT operations who specializes in creating robust, scalable
               solutions that enhance operational efficiency and drive business
               success.

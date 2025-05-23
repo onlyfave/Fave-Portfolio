@@ -13,6 +13,16 @@ const projectData = [
     gitHubLink: "https://project2.com",
   },
 
+ 
+  {
+    title: "FastAPI Book Management",
+    description:
+      "This project is a RESTful API built with FastAPI for managing a book collection. It provides comprehensive CRUD (Create, Read, Update, Delete) operations for books with proper error handling, input validation, and documentation.",
+    image: Project3,
+    link: "https://github.com/onlyfave/fastapi-book-project",
+    gitHubLink: "https://dev.to/onlyfave/fastapi-book-management-api-with-cicd-a-modern-developers-guideoverview-47j5",
+  },
+  
   {
     title: "Pulumi Deploy Static",
     description:
@@ -23,14 +33,6 @@ const projectData = [
     gitHubLink: "https://dev.to/onlyfave/iac-in-action-deploying-a-static-site-with-pulumi-aws-cloudflare-29cj",
   },
   
-  {
-    title: "FastAPI Book Management",
-    description:
-      "This project is a RESTful API built with FastAPI for managing a book collection. It provides comprehensive CRUD (Create, Read, Update, Delete) operations for books with proper error handling, input validation, and documentation.",
-    image: Project3,
-    link: "https://github.com/onlyfave/fastapi-book-project",
-    gitHubLink: "https://dev.to/onlyfave/fastapi-book-management-api-with-cicd-a-modern-developers-guideoverview-47j5",
-  },
   {
     title: "NBA Statistics Pipeline",
     description:
